@@ -1,0 +1,50 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+*.iml
+/.vscode
+.project
+.classpath
+*.launch
+.settings/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/target/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+phantomjsdriver.log
+yarn-error.log
+
+# e2e
+/e2e/src/*.js
+/e2e/*.map
+/target/e2e/reports/*.html
+/target/e2e/reports/*.json
+
+# e2e allow
+!/e2e/protractor.conf.js
+
+# version
+/src/version.json
+
+#System Files
+.DS_Store
+Thumbs.db
+debug.log
+
+#coverage
+/src/coverage
